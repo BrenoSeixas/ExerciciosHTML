@@ -1,0 +1,39 @@
+h2 span {
+  color: #febe01;
+}
+
+h2 {
+  color: white;
+}
+
+p span {
+  color: #febe01;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #332200;
+  background: #febe01;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial;
+}
+
+div {
+  background: #111;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+}
