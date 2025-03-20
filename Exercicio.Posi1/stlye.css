@@ -1,6 +1,7 @@
 body{
   background: #f7f7f7;
   font-family: Arial;
+  margin: 0px;
 }
 
 h1{
@@ -8,12 +9,47 @@ h1{
   text-align: center;
 }
 
-a{
-display: flex;
+.botoesInicio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center;
+  flex: 1;
+}
+
+.a1{
  text-decoration: none; 
  font-size: 20px;
  color: black;
  background: white;
  padding: 20px;
  margin: 20px;
+ border-radius: 2px;
 }
+
+img{
+  width: 100%;
+}
+
+.a2{
+  height: 5px;
+  width: 80px;
+  background: red;
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+
+}
+
+p{
+  font-weight: 500;
+}
+.div2{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  background: white;
+  margin: 100px;
+  padding: 80px;
+}
+
