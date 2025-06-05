@@ -48,9 +48,9 @@ p{
 .botoes a{
   color: black;
   text-decoration: none;
-  padding: 1.5rem 2.5rem;
+  padding: 1rem 2.5rem;
   background: var(--main-color);
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   background: white;
 }
 
@@ -125,11 +125,18 @@ a{
   padding: 1.5rem;
 }
 
-
-
 .Vantagem-item p{
   grid-column: 2;
 }
+
+.Vantagens li:nth-child(odd){
+  background-color: #f7f7f7;
+}
+
+.Vantagem-item:hover{
+border:left solid 1px red ;
+}
+
 
 .rodape{
   background-color: white;
