@@ -6,7 +6,7 @@
   --margin-top: 40px;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem;
   background: #f7f7f7;
@@ -15,37 +15,53 @@ body{
   gap: 7.5rem;
 }
 
-.mt-40{
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mt-40 {
   margin-top: 5rem;
 }
 
-  p {
-    font-size: 2.5rem;
-  }
+p {
+  font-size: 2.5rem;
+}
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
 
-p, h1, h2, h3{
+p,
+h1,
+h2,
+h3 {
   margin: 0rem;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 1;
 }
 
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
 /* Botoes */
 
-.botoes{
+.botoes {
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
 }
 
-.botoes a{
+.botoes a {
+  display: inline-block;
   color: black;
   text-decoration: none;
   padding: 1rem 2.5rem;
@@ -54,23 +70,23 @@ p{
   background: white;
 }
 
-.botoes a:focus{
+.botoes a:focus {
   border: solid 0.2rem red;
 }
 
 /* Conteudo */
 
-a{
+a {
   text-decoration: none;
 }
 
-.conteudo{
+.conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
 }
 
-.introducao{
+.introducao {
   background: white;
   padding: 5rem;
   text-align: right;
@@ -91,11 +107,11 @@ a{
   color: white;
 }
 
-.introducao a:hover{
+.introducao a:hover {
   background-color: #900;
 }
 
-.detalhe{
+.detalhe {
   height: 5px;
   width: 40px;
   background: red;
@@ -104,44 +120,42 @@ a{
   top: 15px;
 }
 
-.subtitulo{
+.subtitulo {
   font-size: 4rem;
   padding: 2rem;
   text-align: center;
   place-self: center;
   color: #c6c6c6;
   background-image: url(/ImagensExePosicionamento/onda.svg);
-} 
+}
 
-.Vantagens{
+.Vantagens {
   background: white;
   padding: 2rem;
 }
 
-.Vantagem-item{
+.Vantagem-item {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem 1.5rem;
   padding: 1.5rem;
 }
 
-.Vantagem-item p{
+.Vantagem-item p {
   grid-column: 2;
 }
 
-.Vantagens li:nth-child(odd){
+.Vantagens li:nth-child(odd) {
   background-color: #f7f7f7;
 }
 
-.Vantagem-item:hover{
-border:left solid 1px red ;
+.Vantagem-item:hover {
+  border: left solid 1px red;
 }
 
-
-.rodape{
+.rodape {
   background-color: white;
   text-align: center;
   padding: 1.5rem;
   width: 100%;
 }
-
